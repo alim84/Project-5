@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+header nav {
+  background: white;
+  box-shadow: 0 5.33px 80px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+header nav .navBtn {
+  font-size: 21px;
+  line-height: 150%;
+  color: #5e3BEE;
+  font-weight: 400;
+  border: 1px solid #5e3BEE;
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px 25px;
+  outline: none;
+}
+header ul {
+  gap: 40px;
+}
+header ul li {
+  font-size: 21px;
+  font-weight: 400;
+  color: #1C1E53;
+  line-height: 150%;
+}
+header ul li a:hover {
+  color: #5e3BEE !important;
+}
+
+#banner {
+  padding: 119px 0;
+  background-color: #F5FCFF;
+}
+#banner .banner__img {
+  margin-right: 20px;
+}
+#banner .banner__text h4 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #282938;
+}
+#banner .banner__text h1 {
+  font-size: 74px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #282938;
+}
+#banner .banner__text h1 span {
+  color: #5e3BEE;
+}
+#banner .banner__text p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #1C1E53;
+  max-width: 621px;
+  margin-top: 21px;
+}
+#banner .banner__text .banner__Btn {
+  font-size: 21px;
+  line-height: 150%;
+  color: white;
+  font-weight: 400;
+  border: 1px solid #5e3BEE;
+  background: #5e3BEE;
+  border-radius: 5px;
+  padding: 10px 25px;
+  outline: none;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#expertise .expertiseHeader h5 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #282938;
+  margin-top: 150px;
+}
+#expertise .expertiseHeader h2 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 120%;
+  margin-top: 21px;
+  padding-bottom: 106px;
+}
+#expertise .strategy {
+  background-color: #F5FCFF;
+  border: none solid #5e3BEE;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+#expertise .strategy h4 {
+  font-size: 32px;
+  font-weight: 800px;
+  line-height: 140%;
+  color: #282938;
+  margin: 32px;
+}
+#expertise .strategy p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #1C1E53;
+  margin-top: 21px;
+  margin: 32px;
+}
+#expertise .strategy .eImages {
+  margin-left: 32px;
+  box-shadow: 0 5.33px 80px rgba(0, 0, 0, 0.1);
+}
+
+#aboutMe .about__img {
+  margin: 113px 0px;
+}
+#aboutMe .about_textpart h5 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #282938;
+}
+#aboutMe .about_textpart h2 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 120%;
+  padding-top: 14px;
+  margin-bottom: 32px;
+}
+#aboutMe .about_textpart p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #282938;
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */

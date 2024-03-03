@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$primary:#5e3BEE;
+$secondary: #282938;
+$thirdcolor: #006B6A;
+$fourthcolor: #F5FCFF;
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+
+@mixin button($bg: white, $color) {
+    font-size: 21px;
+    line-height: 150%;
+    color: $color;
+    font-weight: 400;
+    border: 1px solid $primary;
+    background: $bg;
+    border-radius: 5px;
+    padding: 10px 25px;
+    outline: none;
+  }
+
+  header{
+    nav{
+        background: white;
+        box-shadow: 0 5.33px 80px rgba(0,0,0,.1);
+        padding: 20px 0;
+        .navBtn{
+            @include button(transparent,$primary )
+          
+        }
+    }
+    ul{
+        gap: 40px;
+        li{
+            font-size: 21px;
+            font-weight: 400;
+            color: #1C1E53;
+            line-height: 150%;
+            a{
+              &:hover{
+                    color: $primary !important;
+                }
+            }
+            }
+        }
+    }
+    #banner{
+        
+        padding: 119px 0;
+        background-color: $fourthcolor;
+
+        .banner__img{
+            margin-right: 20px;
+        }
+        .banner__text{
+            h4{
+                font-size: 21px;
+            font-weight: 600;
+            line-height: 150%;
+            color: $secondary;
+            }
+            h1{
+                font-size: 74px;
+            font-weight: 800;
+            line-height: 120%;
+            color: $secondary;
+            span{
+               color: $primary; 
+            }
+            }
+            p{
+                
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 150%;
+                color: #1C1E53;
+                max-width: 621px;
+                margin-top: 21px;
+                
+            }
+            .banner__Btn{
+                @include button($primary, white );
+                text-decoration: none;
+                margin-top: 30px;
+                display: inline-block;
+
+            }
+        }
+    }
+    #expertise{
+        .expertiseHeader{
+            h5{
+                font-size: 21px;
+                font-weight: 600;
+                line-height: 150%;
+                color: #282938;
+                margin-top: 150px;
+
+            }
+            h2{
+                font-size: 64px;
+                font-weight: 800;
+                line-height: 120%;
+                margin-top: 21px;
+                padding-bottom: 106px;
+            }
+        }
+            
+       .strategy{
+        background-color: $fourthcolor;
+        border: none solid $primary;
+        border-radius: 5px;
+        margin-bottom: 150px;
+
+       
+        h4{
+            font-size: 32px;
+            font-weight: 800px;
+            line-height: 140%;
+            color: #282938;
+            margin: 32px;
+        }
+        p{
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 150%;
+            color: #1C1E53;
+            margin-top: 21px;
+            margin: 32px;
+        }
+       
+       
+       
+       .eImages{
+        margin-left: 32px;
+            box-shadow: 0 5.33px 80px rgba(0,0,0,.1);
+       }
+            
+        
+       
+    }
+}
+
+#aboutMe{
+    .about__img{
+        margin: 113px 0px;
+       
+    }
+    .about_textpart{
+        h5{
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 150%;
+            color: #282938;
+            
+
+        }
+        h2{
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 120%;
+            padding-top: 14px;
+            margin-bottom: 32px;
+            
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 150%;
+            color: $secondary;
+            text-align: justify;
+        }
+    }
+}
+  
